@@ -1,0 +1,9 @@
+def smallest_multiple(number : int):
+    if number % 2 != 0:
+        SEM = number * 2
+    else:
+        SEM = number
+    return SEM
+
+num = smallest_multiple(8)
+print(num)
